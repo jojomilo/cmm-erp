@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cmm-erp.iml" filepath="$PROJECT_DIR$/cmm-erp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmm-erp-api/cmm-erp-api.iml" filepath="$PROJECT_DIR$/cmm-erp-api/cmm-erp-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmm-erp-domain/cmm-erp-domain.iml" filepath="$PROJECT_DIR$/cmm-erp-domain/cmm-erp-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmm-erp-service/cmm-erp-service.iml" filepath="$PROJECT_DIR$/cmm-erp-service/cmm-erp-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmm-erp-web/cmm-erp-web.iml" filepath="$PROJECT_DIR$/cmm-erp-web/cmm-erp-web.iml" />
+    </modules>
+  </component>
+</project>

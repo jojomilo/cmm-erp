@@ -1,0 +1,60 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cmm-erp:war exploded">
+    <output-path>$PROJECT_DIR$/target/cmm-erp</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cmm-erp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com-yonyou-nccpub:nccpub-gateway-client:1.1.0-Release" />
+          <element id="library" level="project" name="Maven: io.vertx:vertx-core:3.2.1" />
+          <element id="library" level="project" name="Maven: io.netty:netty-common:4.0.33.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.0.33.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport:4.0.33.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-handler:4.0.33.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec:4.0.33.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec-http:4.0.33.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.6.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.6.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.0" />
+          <element id="library" level="project" name="Maven: io.vertx:vertx-dropwizard-metrics:3.2.1" />
+          <element id="library" level="project" name="Maven: io.dropwizard.metrics:metrics-core:3.1.2" />
+          <element id="library" level="project" name="Maven: commons-net:commons-net:3.4" />
+          <element id="library" level="project" name="Maven: io.vertx:vertx-web:3.2.1" />
+          <element id="library" level="project" name="Maven: io.vertx:vertx-auth-common:3.2.1" />
+          <element id="library" level="project" name="Maven: io.vertx:vertx-hazelcast:3.2.1" />
+          <element id="library" level="project" name="Maven: com.hazelcast:hazelcast:3.5.2" />
+          <element id="library" level="project" name="Maven: com.thoughtworks.xstream:xstream:1.3.1" />
+          <element id="library" level="project" name="Maven: xpp3:xpp3_min:1.1.4c" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.4" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.4" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.4" />
+          <element id="library" level="project" name="Maven: io.vertx:vertx-http-service-factory:3.2.1" />
+          <element id="library" level="project" name="Maven: io.vertx:vertx-service-factory:3.2.1" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcpg-jdk15on:1.52" />
+          <element id="library" level="project" name="Maven: com.h2database:h2:1.4.192" />
+          <element id="library" level="project" name="Maven: com-yonyou-nccpub:nccpub-gateway-public:1.0.9-Release" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.4" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:15.0" />
+          <element id="library" level="project" name="Maven: net.jpountz.lz4:lz4:1.3.0" />
+          <element id="library" level="project" name="Maven: io.vertx:vertx-codegen:3.1.0" />
+          <element id="library" level="project" name="Maven: org.mvel:mvel2:2.2.0.Final" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.52" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.52" />
+          <element id="library" level="project" name="Maven: com-yonyou-nccpub:nccpub-gateway-webserver:1.0.7-Release" />
+          <element id="library" level="project" name="Maven: io.vertx:vertx-mongo-client:3.2.1" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver-async:3.2.0" />
+          <element id="library" level="project" name="Maven: org.mongodb:bson:3.2.0" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver-core:3.2.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.12" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/cmm-erp/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="cmm-erp/web/Web" />
+    </root>
+  </artifact>
+</component>

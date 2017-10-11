@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com-yonyou-nccpub:nccpub-gateway-webserver:1.0.7-Release">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../93_Maven/yonyou/repository/com-yonyou-nccpub/nccpub-gateway-webserver/1.0.7-Release/nccpub-gateway-webserver-1.0.7-Release.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../93_Maven/yonyou/repository/com-yonyou-nccpub/nccpub-gateway-webserver/1.0.7-Release/nccpub-gateway-webserver-1.0.7-Release-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../93_Maven/yonyou/repository/com-yonyou-nccpub/nccpub-gateway-webserver/1.0.7-Release/nccpub-gateway-webserver-1.0.7-Release-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
