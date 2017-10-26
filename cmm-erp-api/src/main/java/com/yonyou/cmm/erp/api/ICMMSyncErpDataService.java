@@ -8,4 +8,5 @@ import net.sf.json.JSONArray;
 public interface ICMMSyncErpDataService {
 
     public JSONArray syncDataFromErp();
+
 }

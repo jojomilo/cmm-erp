@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+
+    <bean id="rabbitConnectionFactory" class="org.springframework.amqp.rabbit.connection.CachingConnectionFactory" >
+        <constructor-arg value="localhost"/>
+        <property name="username" value="suny"/>
+        <property name="password" value="123456a"/>
+        <property name="channelCacheSize" value="8"/>
+        <property name="port" value="5672"/>
+    </bean>
+
+    <rabbit:admin connection-factory="rabbitConnectionFactory"/>
+
+    <rabbit:queue name="queue01" durable="false" auto-delete="true"/>
+    <rabbit:queue name="queue02" durable="false" auto-delete="true"/>
+
+    <rabbit:topic-exchange name="com.suny.topic.exchange" durable="false" auto-delete="true">
+        <rabbit:bindings>
+            <rabbit:binding queue="queue01" pattern="*.*.abc"/>
+            <rabbit:binding queue="queue02" pattern="*.asd.#"/>
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+
+    <bean id="rabbitTemplate" class="org.springframework.amqp.rabbit.core.RabbitTemplate">
+        <constructor-arg ref="rabbitConnectionFactory"/>
+    </bean>
+</beans>
